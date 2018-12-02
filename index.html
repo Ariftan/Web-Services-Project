@@ -1,0 +1,44 @@
+<DOCTYPE! html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Styles/style.css" />
+    <script src="./javascripts/main.js"></script>
+</head>
+<body>
+
+<div class = "main">
+    
+    <div class = "header">
+        <ul>
+            <li><a class="active" Onclick="switchPage('home')">Home</a></li>
+            <li class="dropdown">
+                    <a Onclick="switchPage('category')" class="dropbtn">Categories</a>
+                    <div class="dropdown-content">
+                    <a Onclick="switchPage('home')">Food 1</a>
+                    <a Onclick="switchPage('home')">Food 2</a>
+                    <a Onclick="switchPage('home')">Food 3</a>
+                    </div>
+            </li>
+            <li><a Onclick="switchPage('contact')" >Contact</a></li>
+            <li><a Onclick="switchPage('about')" >About</a></li>
+        </ul>
+
+    </div>
+
+    <div class = "body" >
+        <p id ="content"
+        ></p>
+    </div>
+
+    <div class = "footer">
+        <p> Footer </p>
+    </div>
+
+ </div>
+ 
+</body>
+</html>
